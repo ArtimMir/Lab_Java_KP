@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GameFrame">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="17" y="257" width="666" height="396"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="1dc5b" binding="questionAndAnswersPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="93060" class="javax.swing.JLabel" binding="lblQuestionText">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <vspacer id="8b4d7">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="1e53d" class="javax.swing.JButton" binding="btnAnswer1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="343f0" class="javax.swing.JButton" binding="btnAnswer3">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="c3664" class="javax.swing.JButton" binding="btnAnswer2">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="38df" class="javax.swing.JButton" binding="btnAnswer4">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="cc771" class="javax.swing.JList" binding="lstLevel">
+        <constraints border-constraint="East"/>
+        <properties>
+          <model>
+            <item value="3 000 000"/>
+            <item value="1 500 000"/>
+            <item value="800 000"/>
+            <item value="400 000"/>
+            <item value="200 000"/>
+            <item value="100 000"/>
+            <item value="50 000"/>
+            <item value="25 000"/>
+            <item value="15 000"/>
+            <item value="10 000"/>
+            <item value="5 000"/>
+            <item value="3 000"/>
+            <item value="2 000"/>
+            <item value="1 000"/>
+            <item value="500"/>
+          </model>
+        </properties>
+      </component>
+      <grid id="aeb10" binding="controlPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fc282" class="javax.swing.JButton" binding="bntFiftyFiftyActionPerformed">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="50/50"/>
+            </properties>
+          </component>
+          <component id="34569" class="javax.swing.JButton" binding="bntHelpActionPerformed">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Помощь зала"/>
+            </properties>
+          </component>
+          <component id="95793" class="javax.swing.JButton" binding="bntCallActionPerformed">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Звонок другу"/>
+            </properties>
+          </component>
+          <component id="a81d2" class="javax.swing.JButton" binding="bntRightMistakeActionPerformed">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Право на ошибку"/>
+            </properties>
+          </component>
+          <component id="21f8e" class="javax.swing.JButton" binding="bntChangeQuestionActionPerformed">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Замена вопроса"/>
+            </properties>
+          </component>
+          <component id="6e169" class="javax.swing.JButton" binding="bntGiveMyMoneyActionPerformed">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Забрать деньги"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="46dee" class="javax.swing.JLabel">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <icon value="picture.jpg"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
